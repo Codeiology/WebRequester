@@ -4,9 +4,6 @@ import sys
 import subprocess
 import re
 import webbrowser
-for i in range (10):
-    print("Booting: sendtowebhook.py" + "." * i, end="\r")
-    time.sleep(0.5)
 print("#############################")
 time.sleep(0.3)
 print("##### WEBHOOK REQUESTER #####")
